@@ -1,0 +1,17 @@
+ l1 = [1 0];
+ x = 0 : 0.01 : 1;
+ y = polyval(l1, x);
+ subplot(2,2,1);
+ plot(x,y);
+ l2 = [3/2 0 1/2];
+ y = polyval(l2,x);
+ subplot(2,2,2);
+ plot(x,y);
+ l3=[5/2 -3/2 0];
+ y=polyval(l3,x);
+ subplot(2,2,3);
+ plot(x,y);
+ l4=[35/8 0 -15/4 0 3/8];
+  y=polyval(l3,x);
+ subplot(2,2,4);
+ plot(x,y);
